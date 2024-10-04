@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carrito</title>
+  </head>
+  <body>
+    <header>
+      <h1>tienda "los recuerdos de ella"</h1>
+      <div class="carrito">
+        <img
+        class="carrito"
+          src="https://cdn-icons-png.flaticon.com/512/3144/3144456.png"
+          alt="carrito"
+        /><span id="conteo"></span>
+      </div>
+    </header>
+    <ul>
+      <li>
+        chocolate
+        <img
+          class="imagenes"
+          src="https://misaboracolombia.com/cdn/shop/products/chocolatelukersinazucar_1450x.jpg?v=1668346582"
+          alt=""
+        />
+        <button
+          onclick="cosas('chocolate', 'amargo', '$15000', 'https://misaboracolombia.com/cdn/shop/products/chocolatelukersinazucar_1450x.jpg?v=1668346582')"
+        >
+          agregar al carrito
+        </button>
+      </li>
+      <li>
+        gaseosa
+        <img
+          class="imagenes"
+          src="https://simonparrilla.com.co/wp-content/uploads/2022/06/SIMON-PARRILLA-BEBIDAS-GASEOSA.webp"
+          alt="gaseosa"
+        />
+        <button
+          onclick="cosas('gaseosa', 'refresco', '$2000', 'https://simonparrilla.com.co/wp-content/uploads/2022/06/SIMON-PARRILLA-BEBIDAS-GASEOSA.webp')"
+        >
+          agregar al carrito
+        </button>
+      </li>
+      <li>
+        galleta
+        <img
+          class="imagenes"
+          src="https://exitocol.vteximg.com.br/arquivos/ids/24648320/Galletas-Tipo-Leche-Bolsa-X-18-Unids-761299_a.jpg"
+          alt=""
+        />
+        <button
+          onclick="cosas('galleta', 'galleta de leche', '$3000', 'https://exitocol.vteximg.com.br/arquivos/ids/24648320/Galletas-Tipo-Leche-Bolsa-X-18-Unids-761299_a.jpg')"
+        >
+          agregar al carrito
+        </button>
+      </li>
+      <li>
+        pony
+        <img
+          class="imagenes"
+          src="https://jotajotafoods.com/wp-content/uploads/2021/12/MAL00003.jpg"
+          alt=""
+        />
+        <button
+          onclick="cosas('vicio/digo pony', 'refresco', '$4000', 'https://jotajotafoods.com/wp-content/uploads/2021/12/MAL00003.jpg')"
+        >
+          agregar al carrito
+        </button>
+      </li>
+      <li>
+        choclitos
+        <img
+          class="imagenes"
+          src="https://womm.io/admin/src/imagesDelivery/c3953475f78afed87fd8eddb1fd09b78/ecce3282c25c217151c47f9ffde07216.png"
+          alt=""
+        />
+        <button
+          onclick="cosas('choclitos', 'mekatos', '$1000', 'https://womm.io/admin/src/imagesDelivery/c3953475f78afed87fd8eddb1fd09b78/ecce3282c25c217151c47f9ffde07216.png')"
+        >
+          agregar al carrito
+        </button>
+      </li>
+    </ul>
+    <div id="producto"></div>
+  </body>
+  <script src="./script.js"></script>
+</html>

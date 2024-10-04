@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(85, 155, 155);
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    list-style: none;
+}
+li{
+    background-color: rgb(172, 219, 228);
+    padding: 15px;
+    margin: 15px;
+    width: 250px;
+    border-radius: 6px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background-color: rgb(112, 224, 181);
+    padding: 9px;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: rgb(60, 103, 151);
+}
+img{
+    width: 120px;
+    height: 85px;
+}
+.carrito img{
+    width: 30px;
+    height: 30px;
+}
+.carrito{
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+.pr{
+    margin: 20px;
+    padding: 5px;
+    border-radius: 1pc;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: whitesmoke;
+}
+.imagenes{
+    width: 60px;
+    height: 70px;
+}
+#producto{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
